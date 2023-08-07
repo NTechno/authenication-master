@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.19.2",
     "ejs": "^3.1.2",
     "express": "^4.17.1",
-    "axios": "^0.19.2"
+    "passport": "^0.6.0",
+    "passport-github2": "^0.1.12"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Puneet Singh",
   "license": "ISC"
